@@ -1,0 +1,8 @@
+# ReciteFlow Website Robots.txt
+# https://reciteflow.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://reciteflow.com/sitemap.xml

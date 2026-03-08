@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReciteFlow - Memorize lyrics, scripts & speeches with spaced repetition</title>
+  <meta name="description" content="Paste your text, ReciteFlow breaks it into sections and teaches you line by line using spaced repetition. Performance deadlines, smart scheduling, hint modes. Offline, no ads.">
+  <meta name="keywords" content="memorize lyrics app, memorize scripts, memorize speeches, spaced repetition, line learning app, actor memorization, singer lyrics, speech memorization, SSRS, flashcard">
+  <link rel="canonical" href="https://reciteflow.com/">
+
+  <!-- Hreflang -->
+  <link rel="alternate" hreflang="en" href="https://reciteflow.com/">
+  <link rel="alternate" hreflang="es" href="https://reciteflow.com/es/">
+  <link rel="alternate" hreflang="x-default" href="https://reciteflow.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ReciteFlow - Memorize lyrics, scripts & speeches with spaced repetition">
+  <meta property="og:description" content="Paste your text, learn it line by line with smart scheduling. Performance deadlines compress your study plan automatically. No ads, works offline.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://reciteflow.com">
+  <meta property="og:image" content="https://reciteflow.com/images/logo_512.png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ReciteFlow - Memorize lyrics, scripts & speeches">
+  <meta name="twitter:description" content="Paste your text, learn it line by line with spaced repetition. Smart scheduling, performance deadlines, hint modes. Offline, no ads.">
+  <meta name="twitter:image" content="https://reciteflow.com/images/logo_512.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/logo_32.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="images/logo_192.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "ReciteFlow",
+    "operatingSystem": "Android",
+    "applicationCategory": "EducationalApplication",
+    "description": "Memorize lyrics, scripts, and speeches using spaced repetition. Paste your text, detect sections, and learn line by line with smart scheduling and performance deadlines.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+
+  <!-- Language auto-detection -->
+  <script>
+    (function() {
+      if (localStorage.getItem('reciteflow-lang-choice')) return;
+      var lang = navigator.language || navigator.userLanguage;
+      if (lang && lang.toLowerCase().startsWith('es')) {
+        window.location.href = '/es/';
+      }
+    })();
+  </script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <a href="/" class="logo">
+        <img src="images/logo_48.png" alt="ReciteFlow logo" width="32" height="32">
+        ReciteFlow
+      </a>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul>
+        <li><a href="#how-it-works">How it works</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#download">Download</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="/es/" class="lang-switch" title="Espa&ntilde;ol">ES</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-badge">For performers, by a performer</span>
+        <h1>Know every line. Own the stage.</h1>
+        <p>ReciteFlow teaches you lyrics, scripts, and speeches line by line using spaced repetition. Paste your text, and it handles the rest.</p>
+        <p class="tagline">Paste. Section. Study. Perform.</p>
+        <div class="hero-buttons">
+          <a href="#download" class="btn btn-primary">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 15V3M12 15L8 11M12 15L16 11M3 17V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V17"/>
+            </svg>
+            Download Free
+          </a>
+          <a href="#how-it-works" class="btn btn-secondary">See How It Works</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="phone-mockup">
+          <div class="phone-screen">
+            <div class="screenshot-carousel">
+              <img src="images/screenshots/home_screen.jpg" alt="ReciteFlow home screen" class="screenshot active">
+              <img src="images/screenshots/import_paste_screen.jpg" alt="Import and paste text" class="screenshot">
+              <img src="images/screenshots/creation_completed_screen.jpg" alt="Set created, ready to learn" class="screenshot">
+              <img src="images/screenshots/set_details_screen.jpg" alt="Set details with stats" class="screenshot">
+              <img src="images/screenshots/card_front.jpg" alt="Learning card - recall prompt" class="screenshot">
+              <img src="images/screenshots/card_back.jpg" alt="Learning card - rate yourself" class="screenshot">
+            </div>
+          </div>
+          <div class="carousel-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <h2>Three steps to stage-ready</h2>
+        <p>No complicated setup. Paste your text and start learning in under a minute.</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h3>Paste</h3>
+          <p>Paste lyrics, a script, a speech, or any text you need to memorize. Tag it as lyrics, script, speech, or other.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h3>Section</h3>
+          <p>ReciteFlow auto-detects verses, choruses, scenes, and sections. Review them, tweak if needed, and confirm.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <h3>Study</h3>
+          <p>Learn line by line with spaced repetition. The app shows you the previous line and asks: what comes next? Rate yourself and keep going.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>Built for memorization, not flashcards</h2>
+        <p>ReciteFlow isn't a generic flashcard app with a theater skin. Every feature is designed around how performers actually learn text.</p>
+      </div>
+
+      <!-- SSRS Highlight -->
+      <div class="feature-highlight">
+        <div class="feature-highlight-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+          </svg>
+        </div>
+        <div class="feature-highlight-content">
+          <span class="feature-badge">Core</span>
+          <h3>Sequential Spaced Repetition (SSRS)</h3>
+          <p>Lines are introduced in order, not randomly. You learn line 1, then line 2, then line 3 &mdash; the way text actually flows. Spaced repetition schedules reviews so you see weak lines more often and strong lines less. It's the best of both worlds: sequential learning with scientific spacing.</p>
+        </div>
+      </div>
+
+      <!-- Performance Deadline Highlight -->
+      <div class="feature-highlight">
+        <div class="feature-highlight-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+            <line x1="16" y1="2" x2="16" y2="6"/>
+            <line x1="8" y1="2" x2="8" y2="6"/>
+            <line x1="3" y1="10" x2="21" y2="10"/>
+            <path d="M8 14l2 2 4-4"/>
+          </svg>
+        </div>
+        <div class="feature-highlight-content">
+          <span class="feature-badge">Smart</span>
+          <h3>Performance Deadlines</h3>
+          <p>Set a performance date and the algorithm compresses review intervals automatically. The closer your show, the more aggressively it schedules weak lines &mdash; so everything converges to mastery right when you need it.</p>
+        </div>
+      </div>
+
+      <!-- Features Grid -->
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <line x1="16" y1="13" x2="8" y2="13"/>
+              <line x1="16" y1="17" x2="8" y2="17"/>
+            </svg>
+          </div>
+          <h3>Smart Section Detection</h3>
+          <p>Paste any text and ReciteFlow detects verses, choruses, bridges, scenes, and paragraphs automatically.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+              <circle cx="12" cy="12" r="3"/>
+            </svg>
+          </div>
+          <h3>Hint Modes</h3>
+          <p>First letter hints, fill-the-gap, or full blind. Gradually remove cues as you get stronger. Pro feature.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/>
+            </svg>
+          </div>
+          <h3>Folders</h3>
+          <p>Organize sets by show, class, project, or however you think. Drag and drop to rearrange. Pro feature.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 00-3-3.87"/>
+              <path d="M16 3.13a4 4 0 010 7.75"/>
+            </svg>
+          </div>
+          <h3>Share & Export</h3>
+          <p>Export sets as .reciteflow files with or without study progress. Share with castmates or back up your work.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+            </svg>
+          </div>
+          <h3>English & Spanish</h3>
+          <p>Full bilingual interface. The app detects your device language or you can switch manually at any time.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+              <path d="M7 11V7a5 5 0 0110 0v4"/>
+            </svg>
+          </div>
+          <h3>Offline & Private</h3>
+          <p>Everything stays on your device. No accounts, no tracking, no internet needed. Just you and your text.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Use Cases Section -->
+  <section class="use-cases" id="use-cases">
+    <div class="container">
+      <div class="section-header">
+        <h2>For anyone who needs to know their lines</h2>
+        <p>ReciteFlow works with any text you need to commit to memory.</p>
+      </div>
+      <div class="use-cases-grid">
+        <div class="use-case-card">
+          <span class="use-case-emoji">&#127925;</span>
+          <h3>Singers</h3>
+          <p>Learn lyrics verse by verse, chorus by chorus. Never blank on stage again.</p>
+        </div>
+        <div class="use-case-card">
+          <span class="use-case-emoji">&#127917;</span>
+          <h3>Actors</h3>
+          <p>Memorize scripts scene by scene. Sections follow the structure of your play.</p>
+        </div>
+        <div class="use-case-card">
+          <span class="use-case-emoji">&#127908;</span>
+          <h3>Speakers</h3>
+          <p>Nail every paragraph of your speech, keynote, or presentation. Set a deadline and the app does the rest.</p>
+        </div>
+        <div class="use-case-card">
+          <span class="use-case-emoji">&#128218;</span>
+          <h3>Students</h3>
+          <p>Memorize poems, passages, definitions, or anything else. It's text in, memory out.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <h2>Simple, honest pricing</h2>
+        <p>ReciteFlow is free to use. Pro unlocks the full toolkit.</p>
+      </div>
+      <div class="pricing-cards">
+        <div class="pricing-card">
+          <h3>Free</h3>
+          <div class="price">$0 <span>forever</span></div>
+          <ul class="pricing-features">
+            <li><span class="check">&#10003;</span> Up to 3 sets</li>
+            <li><span class="check">&#10003;</span> Full SSRS learning</li>
+            <li><span class="check">&#10003;</span> Performance deadlines</li>
+            <li><span class="check">&#10003;</span> Section detection</li>
+            <li><span class="check">&#10003;</span> Share & export</li>
+            <li><span class="check">&#10003;</span> Run-through mode</li>
+          </ul>
+          <a href="#download" class="btn btn-secondary" style="width: 100%; justify-content: center;">Get Started</a>
+        </div>
+        <div class="pricing-card featured">
+          <h3>Pro</h3>
+          <div class="price">$4.99 <span>once</span></div>
+          <ul class="pricing-features">
+            <li><span class="check">&#10003;</span> Everything in Free</li>
+            <li><span class="check">&#10003;</span> <strong>Unlimited</strong> sets</li>
+            <li><span class="check">&#10003;</span> Hint modes (first letter, fill-the-gap, blind)</li>
+            <li><span class="check">&#10003;</span> Folders &amp; organization</li>
+            <li><span class="check">&#10003;</span> Light theme</li>
+            <li><span class="check">&#10003;</span> Support development</li>
+          </ul>
+          <a href="#download" class="btn btn-primary" style="width: 100%; justify-content: center;">Get Pro</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section -->
+  <section class="download" id="download">
+    <div class="container">
+      <h2>Ready to rehearse?</h2>
+      <p>Download ReciteFlow for free and start memorizing today.</p>
+      <div class="store-buttons">
+        <a href="https://play.google.com/store/apps/details?id=com.pbldmngz.reciteflow" class="store-button" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M3.609 1.814L13.792 12 3.609 22.186a.996.996 0 01-.609-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 010 1.732l-2.807 1.626L15.206 12l2.492-2.492zM5.864 2.658L16.801 8.99l-2.302 2.303-8.635-8.635z"/>
+          </svg>
+          <div class="store-text">
+            <small>Get it on</small>
+            <strong>Google Play</strong>
+          </div>
+        </a>
+      </div>
+      <p style="margin-top: 24px; font-size: 0.9rem; color: var(--slate);">Android only for now. iOS coming soon!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <img src="images/logo_48.png" alt="ReciteFlow logo" width="28" height="28">
+            ReciteFlow
+          </a>
+          <p>Paste. Section. Study. Perform. Made for performers who need to know every line.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#download">Download</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="support.html">Help & Contact</a></li>
+            <li><a href="https://ko-fi.com/pablodm9" target="_blank" rel="noopener">Support on Ko-fi</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Pablo Dominguez. All rights reserved.</p>
+        <p>Made with love by <a href="https://dominguezpablo.com" target="_blank" rel="noopener">Pablo</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const screenshots = document.querySelectorAll('.screenshot');
+      const dots = document.querySelectorAll('.dot');
+      let currentIndex = 0;
+      const interval = 4000;
+
+      function showSlide(index) {
+        screenshots.forEach((s, i) => s.classList.toggle('active', i === index));
+        dots.forEach((d, i) => d.classList.toggle('active', i === index));
+      }
+
+      function nextSlide() {
+        currentIndex = (currentIndex + 1) % screenshots.length;
+        showSlide(currentIndex);
+      }
+
+      dots.forEach((dot, i) => {
+        dot.addEventListener('click', () => {
+          currentIndex = i;
+          showSlide(currentIndex);
+        });
+      });
+
+      setInterval(nextSlide, interval);
+
+      // Mobile menu toggle
+      const menuToggle = document.querySelector('.menu-toggle');
+      const navMenu = document.querySelector('nav ul');
+
+      if (menuToggle) {
+        menuToggle.addEventListener('click', () => {
+          menuToggle.classList.toggle('active');
+          navMenu.classList.toggle('open');
+        });
+
+        navMenu.querySelectorAll('a').forEach(link => {
+          link.addEventListener('click', () => {
+            menuToggle.classList.remove('active');
+            navMenu.classList.remove('open');
+          });
+        });
+      }
+    });
+  </script>
+</body>
+</html>

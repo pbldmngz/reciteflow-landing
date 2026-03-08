@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- English pages -->
+  <url>
+    <loc>https://reciteflow.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://reciteflow.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://reciteflow.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://reciteflow.com/"/>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://reciteflow.com/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://reciteflow.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://reciteflow.com/es/privacy.html"/>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://reciteflow.com/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://reciteflow.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://reciteflow.com/es/terms.html"/>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://reciteflow.com/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://reciteflow.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://reciteflow.com/es/support.html"/>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Spanish pages -->
+  <url>
+    <loc>https://reciteflow.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://reciteflow.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://reciteflow.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://reciteflow.com/"/>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://reciteflow.com/es/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://reciteflow.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://reciteflow.com/es/privacy.html"/>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://reciteflow.com/es/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://reciteflow.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://reciteflow.com/es/terms.html"/>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://reciteflow.com/es/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://reciteflow.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://reciteflow.com/es/support.html"/>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
